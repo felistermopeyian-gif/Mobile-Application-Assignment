@@ -1,0 +1,33 @@
+﻿# Gradle files
+.gradle/
+build/
+build_old/
+app/build/
+app/build_old/
+local.properties
+*.iml
+*.class
+
+# Android Studio
+.idea/
+*.iws
+.idea/workspace.xml
+.idea/tasks.xml
+.DS_Store
+
+# Compiled files
+*.class
+*.apk
+*.aar
+*.dex
+
+# Log files
+*.log
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Keystore files
+*.jks
+*.keystore
