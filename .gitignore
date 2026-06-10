@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿# Gradle files
 .gradle/
 build/
@@ -31,3 +32,20 @@ Thumbs.db
 # Keystore files
 *.jks
 *.keystore
+=======
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+>>>>>>> df4f34a41289924f85ff87f0ef756cd5999ee424

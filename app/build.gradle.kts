@@ -4,6 +4,7 @@ plugins {
 }
 
 android {
+<<<<<<< HEAD
     namespace = "com.example.studentmanagementapp"
     compileSdk {
         version = release(36) {
@@ -13,6 +14,13 @@ android {
 
     defaultConfig {
         applicationId = "com.example.studentmanagementapp"
+=======
+    namespace = "com.example.helloworldapp"
+    compileSdk = 36
+
+    defaultConfig {
+        applicationId = "com.example.helloworldapp"
+>>>>>>> df4f34a41289924f85ff87f0ef756cd5999ee424
         minSdk = 24
         targetSdk = 36
         versionCode = 1
@@ -43,7 +51,10 @@ dependencies {
     implementation(platform(libs.androidx.compose.bom))
     implementation(libs.androidx.activity.compose)
     implementation(libs.androidx.compose.material3)
+<<<<<<< HEAD
     implementation(libs.androidx.compose.material.icons)
+=======
+>>>>>>> df4f34a41289924f85ff87f0ef756cd5999ee424
     implementation(libs.androidx.compose.ui)
     implementation(libs.androidx.compose.ui.graphics)
     implementation(libs.androidx.compose.ui.tooling.preview)
